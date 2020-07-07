@@ -1,7 +1,6 @@
 package com.kulygina.service.impl;
 
 import com.kulygina.model.TestModel;
-import com.kulygina.service.FileService;
 import org.junit.gen5.api.DisplayName;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -13,7 +12,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertLinesMatch;
 
 @DisplayName("File service should ")
 class FileServiceImplTest {

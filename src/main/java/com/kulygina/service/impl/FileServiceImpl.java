@@ -1,7 +1,5 @@
 package com.kulygina.service.impl;
 
-import com.kulygina.model.DecathlonResultModel;
-import com.kulygina.model.DecathlonResultModelsWrapper;
 import com.kulygina.service.FileService;
 
 import javax.xml.bind.JAXBContext;

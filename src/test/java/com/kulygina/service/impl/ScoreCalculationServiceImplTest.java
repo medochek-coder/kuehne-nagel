@@ -1,7 +1,6 @@
 package com.kulygina.service.impl;
 
 import com.kulygina.model.DecathlonResultModel;
-import com.kulygina.service.ScoreCalculationService;
 import org.junit.gen5.api.DisplayName;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -9,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @DisplayName("Score calculation service should ")
 class ScoreCalculationServiceImplTest {
@@ -55,5 +54,4 @@ class ScoreCalculationServiceImplTest {
 
         assertEquals(expected, result);
     }
-
 }
